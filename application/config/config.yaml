@@ -1,0 +1,21 @@
+
+f1:
+  season: 2024
+
+  gps:
+    - Japanese Grand Prix
+
+  sessions:
+    - Q
+    - R
+
+database:
+  host: localhost
+  port: 3306
+  user: f1_user
+  password: f1_password
+  name: f1db
+
+app:
+  cache_dir: ./cache
+  log_dir: ./logs
